@@ -40,14 +40,16 @@ body {
     padding: 20px;
     background-color: #ebebeb;
     box-shadow: 0 6px 12px rgba(0, 0, 0, -2);
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
 }
 
-.card {
+.card, .card2 {
     position: relative;
-    top: 40px;
-    left: 200px;
-    width: 170%;
-    max-width: 350px;
+    width: 310px;
+    height: 460px;
+    margin-top: 40px;
     height: 465px;
     background: var(--card-bg);
     border-radius: var(--radius);
@@ -63,7 +65,7 @@ body {
     animation-iteration-count: 1;
 }
 
-.card:hover {
+.card:hover, .card2:hover {
     transform: translateY(-4px);
     box-shadow: 10px 10px 20px var(--shadow-dark);
 }
@@ -135,4 +137,117 @@ body {
     font-size: 1.6rem;
     font-weight: 500;
   }
+
+  .container {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+.taxe-info {
+    margin-left: -30px;
+    color: var(--subtitle);
+    font-size: 0.7rem;
+    margin-top: -20px;
+    letter-spacing: 0.2px;
+}
+
+.card2 {
+  animation-duration: 1.5s;
+}
+
+.card-image2 {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  object-fit: cover;
+  margin: -230px;
+  left: 0px;
+  width: 200%;
+  max-width: 500px;
+  height: 640px;
+}
+
+.card-subtitle2 {
+  margin-left: -80px;
+  margin-bottom: -6px;
+  color: var(--subtitle);
+}
+
+.card-title2 {
+  margin-left: -80px;
+  color: var(--title);
+}
+
+.drive-text2 {
+  margin-left: -80px;
+  margin-bottom: 100px;
+  background-color: #d9d9d9;
+  color: #333;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.star-rating {
+  margin-left: -30px;
+  margin-top: -35px;
+  color: #fdef2f;
+}
+
+.card-description1 {
+  margin-left: -80px;
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.2px;
+}
+
+.card-description2 {
+  margin-left: -80px;
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
+  
+}
+
+
+.hline2 {
+  width: 300%;
+  height: 1px;
+  margin-top: -10px;
+  margin-left: -100px;
+  background-color: #ccc;
+}
+
+.prices2 {
+  margin-left: -80px;
+  color: black;
+  font-size: 0.8rem;
+  letter-spacing: 0.2px;
+}
+
+.price-box2 {
+  margin-left: -80px;
+  margin-bottom: -70px;
+  font-size: 1.0rem;
+}
+
+.price-amount2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.taxe-info2 {
+  margin-left: 2px;
+  color: var(--subtitle);
+  font-size: 0.7rem;
+  margin-top: 7px;
+  letter-spacing: 0.2px;
+}
 
