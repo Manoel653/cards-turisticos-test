@@ -42,7 +42,7 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, -2);
     justify-content: center;
     align-items: center;
-    min-height: 50vh; 
+    min-height: 50vh;
 }
 
 .card, .card2 {
@@ -50,7 +50,6 @@ body {
     width: 310px;
     height: 460px;
     margin-top: 40px;
-    height: 465px;
     background: var(--card-bg);
     border-radius: var(--radius);
     box-shadow: 6px 6px 12px var(--shadow-dark);
@@ -81,6 +80,7 @@ body {
     max-width: 500px;
     height: 640px;
 }
+
 .card-subtitle {
     margin-left: -50px;
     margin-bottom: -10px;
@@ -183,6 +183,7 @@ body {
 
 .card-title2 {
   margin-left: -80px;
+  margin-top: 13px;
   color: var(--title);
 }
 
@@ -204,20 +205,19 @@ body {
 
 
 .drive-text2 {
-  margin-left: -80px;
-  margin-bottom: 100px;
-  background-color: #d9d9d9;
-  color: #333;
-  padding: 4px 10px;
+  margin-left: -75px;
+  background-color: #62d15e;
+  color: #ffffff;
+  padding: 3px 6px;
   border-radius: 5px;
   font-size: 0.7rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .star-rating {
   margin-left: -30px;
-  margin-top: -35px;
-  color: #fdef2f;
+  color: #fdb52f;
+  margin-top: -37px;
 }
 
 .card-description1 {
