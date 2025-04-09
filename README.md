@@ -1,1 +1,1 @@
-# cards-turisticos-test
+Atividade de Cards turísticos da aula 2/3
